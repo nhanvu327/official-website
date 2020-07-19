@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/rem-graph", {data:[{}],fetch:[],mutations:void 0});

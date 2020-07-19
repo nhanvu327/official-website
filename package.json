@@ -11,7 +11,7 @@
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
